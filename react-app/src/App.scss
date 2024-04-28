@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+    border: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+body {
+    overflow-x: hidden;
+    line-height: 1.5;
+}
+
+a {
+    font: inherit;
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+input {
+    font: inherit;
+    color: inherit;
+    width: 100%;
+    background-color: transparent;
+}
+
+button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    font-family: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ion-icon {
+    --ionicon-stroke-width: 40px;
+    pointer-events: none;
+}
+
+a,
+img,
+span,
+time,
+input,
+button,
+ion-icon {
+    display: block;
+}
+
+address {
+    font-style: normal;
+}
+
+// !Navbar
+.activeNavlink{
+    color: rgb(39, 39, 39) !important;
+    position: relative;
+    &::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5%;
+    width: 100%;
+    height: 2px;
+    background: rgb(39, 39, 39);
+    }
+}
