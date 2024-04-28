@@ -1,4 +1,3 @@
-import React from 'react'
 import { FaBehance, FaFacebook, FaLinkedin, FaTwitter } from 'react-icons/fa'
 import { SocialItem } from '../types/types'
 

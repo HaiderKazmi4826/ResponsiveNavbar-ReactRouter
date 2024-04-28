@@ -1,15 +1,8 @@
-import React from 'react'
 import {
-  BrowserRouter,
   createBrowserRouter,
   RouterProvider,
-  Routes,
   Route,
-  Link,
-  Outlet,
-  NavLink,
   createRoutesFromElements,
-  useParams,
 } from "react-router-dom";
 import "./App.css";
 import AppLayout from './components/AppLayout';
